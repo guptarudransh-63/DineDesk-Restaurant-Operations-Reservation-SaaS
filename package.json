@@ -1,0 +1,15 @@
+{
+  "name": "dinedesk-monorepo",
+  "version": "1.0.0",
+  "description": "DineDesk - Restaurant Operations, Table Reservations, Kitchen KDS & Billing SaaS",
+  "private": true,
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "seed:force": "cd backend && npm run seed:force",
+    "seed:append": "cd backend && npm run seed:append",
+    "build": "cd frontend && npm run build"
+  }
+}
